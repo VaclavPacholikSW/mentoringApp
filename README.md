@@ -2,10 +2,15 @@
 Muster for mentoring sessions.
 
 Goal is to create an app displaying weather. Here are tasks which you should do to finish our app.
+![image](https://user-images.githubusercontent.com/79636138/114690254-cf700b00-9d16-11eb-8c8b-c49e36ecad96.png)
 
 First of all, download the project, run **npm install** and **investigate files and file structure**. 
 In folder **src/app/** you will find everything what you should use.
 - app.component.html is base page.
+- watch following video to see how what should be the result
+https://user-images.githubusercontent.com/79636138/114690469-0514f400-9d17-11eb-9d80-ddbc73dce380.mp4
+
+
 
 
 ## Tasks TODO
