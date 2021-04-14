@@ -33,7 +33,7 @@ you need to update your angular.json to use LESS extensions (see angular schemat
 
 - Add method to fetch weather data
   - (keep it simple, just fill some variable with mocked array of objects for one week)
-  - method should fill data after 3seconds (to simulate slow request)
+  - method should be called just after component initialize and fill data after 3seconds delay (to simulate slow request)
   - during "3s loading" busyState should be visible (ngIf+template)
   - use interfaces
   - use enums to prevent duplicate of statuses
