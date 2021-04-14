@@ -3,7 +3,7 @@ Muster for mentoring sessions.
 
 Goal is to create an app displaying weather. Here are tasks which you should do to finish our app.
 
-First of all, download the project and **investigate files and file structure**. 
+First of all, download the project, run **npm install** and **investigate files and file structure**. 
 In folder **src/app/** you will find everything what you should use.
 - app.component.html is base page.
 
