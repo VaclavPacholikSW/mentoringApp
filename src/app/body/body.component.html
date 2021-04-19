@@ -1,0 +1,5 @@
+<div class="weatherWrapper">
+	<strong>Weather forecast for following week:</strong>
+    <app-weather (isBusyEvent)="isBusy($event)"></app-weather>
+</div>
+<button [textContent]="buttonText" (click)="refreshData()"></button>

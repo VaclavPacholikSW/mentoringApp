@@ -1,0 +1,24 @@
+<div *ngIf="isBusy" class="busy">
+    weather is loading... 
+</div>
+<div *ngIf="!isBusy">
+    <span *ngIf="simpleView; then simpleViewBlock else detailedViewBlock"></span>
+    <ng-template #simpleViewBlock>
+        {{currentDayWeather() | weatherSimple}}
+    </ng-template>
+    <ng-template #detailedViewBlock>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Status</th>
+                <th>Temperature</th>
+            </tr>
+        <tr *ngFor="let weatherInfo of data">
+            <td>{{weatherInfo.day}}</td>
+            <td>{{weatherInfo.status}}</td>
+            <td>{{weatherInfo.temperature}} °C</td>
+        </tr>
+        </table>
+    </ng-template>
+</div>
+

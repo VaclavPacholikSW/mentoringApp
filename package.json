@@ -2,6 +2,9 @@
   "name": "my-app",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "dev": "ng serve --open"
+  },
   "dependencies": {
     "@angular/animations": "9.1.0",
     "@angular/cdk": "9.1.0",
